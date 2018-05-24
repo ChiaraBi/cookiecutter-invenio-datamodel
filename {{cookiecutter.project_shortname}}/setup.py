@@ -65,7 +65,7 @@ setup(
     description=__doc__,
     long_description=readme,
     keywords='{{ cookiecutter.project_shortname }} Invenio TODO',
-    #TODO license='',
+    license='MIT',
     author='{{ cookiecutter.author_name }}',
     author_email='{{ cookiecutter.author_email }}',
     url='https://github.com/{{ cookiecutter.github_repo }}',
@@ -94,7 +94,7 @@ setup(
     classifiers=[
         'Environment :: Web Environment',
         'Intended Audience :: Developers',
-        #TODO 'License :: ',
+        'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
         'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
